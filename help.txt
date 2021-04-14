@@ -1,0 +1,68 @@
+
+    //url to be opened first
+    const targetUrl = "https://youtube.com"
+
+
+    const search = await page.type('#search','Best programming course in delhi')
+
+    await page.setViewport({
+        width: 1200,
+        height: 800
+    });
+
+    await autoScroll(page);
+
+    await page.screenshot({
+        path: 'yoursite.png',
+        fullPage: true
+    });
+
+    await browser.close();
+})();
+
+async function autoScroll(page){
+    await page.evaluate(async () => {
+        await new Promise((resolve, reject) => {
+            var totalHeight = 0;
+            var distance = 100;
+            var timer = setInterval(() => {
+                var scrollHeight = document.body.scrollHeight;
+                window.scrollBy(0, distance);
+                totalHeight += distance;
+
+                if(totalHeight >= scrollHeight){
+                    clearInterval(timer);
+                    resolve();
+                }
+            }, 100);
+        });
+    });
+}
+
+
+
+    document.querySelector('div [ id="dismissible" ] > div[class ="text-wrapper style-scope ytd-video-renderer"] > div[id="channel-info"] > ytd-channel-name[id="channel-name"] > div[class = "style-scope ytd-channel-name"] > div[id="text-container"] ').innerText
+
+
+$('#dismissible > .text-wrapper.style-scope.ytd-video-renderer > #channel-info > #channel-name > .style-scope.ytd-channel-name > #text-container').innerText
+
+
+
+
+ const nameOfChannel = await page.$$eval(
+        
+        $('#dismissible > .text-wrapper.style-scope.ytd-video-renderer > #channel-info > #channel-name > .style-scope.ytd-channel-name > #text-container').innerText
+      
+    );
+
+    nameOfChannel.click();
+
+
+
+
+await page.evaluate(() => {
+        
+        const nameOfChannel = ('#dismissible > .text-wrapper.style-scope.ytd-video-renderer > #channel-info > #channel-name > .style-scope.ytd-channel-name > #text-container').innerText
+      
+        nameOfChannel.click();
+});
