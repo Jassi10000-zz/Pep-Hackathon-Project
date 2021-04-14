@@ -115,7 +115,7 @@ const puppeteer = require('puppeteer');
             await page4.goto(targetUrl5);
 
 
-            await page4.setViewport({ width: 1200, height: 1800 });
+            await page4.setViewport({ width: 900, height: 1600 });
                 await page4.screenshot({
                 path: "pepPlacementTab.png"
             });
