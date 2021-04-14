@@ -1,18 +1,22 @@
-# Pepcoding-Hackathon-Automation-Project
+# Pepcoding-Hackathon-Automation-Project 😎
 
 
-## My - idea 
+## My - idea 🔆
 
 Being a junior undergrad I have faced the times in past where it was very difficult to find good resources for DSA and a best institute where I can get good guidance about the path to succeed 
 
 So , I made a Automation Project using JavaScript [ including Node.js ] and an automation library " Puppeteer " which helps to resolve this confusion and gives a one stop platform to trust upon i.e "Pepcoding " . 
 For this project , I automated the following 3 sites :
 
-* Youtube 
-* Google Maps
-* Google 
+✅ Youtube       
+✅ Google Maps      
+✅ Google 
 
 The automation video is given below for quick reference  :
+
+![Pep-Hackathon-Project-Video](https://user-images.githubusercontent.com/64856348/114733349-e0de0500-9d60-11eb-8aeb-fba608351b0d.gif)
+
+ 
 
 
  
@@ -27,7 +31,7 @@ Things that will be automated to get the desired result are :
 
 4. Then the official youtube channel of pepcoding will be opened automatically to have a basic view and a Screenshot will be taken for future reference.
 
-5. To get the complete details like " Rating " , " Reviews " , " Location " , " Timings" , " Website " , " Telephone No. " the code is automated to open Google Maps and give the required information and a Screenshot will be taken for future reference 
+5. To get the complete details like " Rating " , " Reviews " , " Location " , " Timings" , " Website " , " Telephone No. " the code is automated to open Google Maps and search for *pepcoding education center* give the required information and a Screenshot will be taken for future reference 
 
 6. From the details acquired , the code will take you to the official website of  " PepCoding " 
 
