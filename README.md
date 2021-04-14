@@ -14,9 +14,8 @@ For this project , I automated the following 3 sites :
 
 The automation video is given below for quick reference  :
 
-![Pep-Hackathon-Project-Video](https://user-images.githubusercontent.com/64856348/114733349-e0de0500-9d60-11eb-8aeb-fba608351b0d.gif)
 
- 
+ ![Pep-Hackathon-Project-Video](https://user-images.githubusercontent.com/64856348/114754851-a7b08f80-9d76-11eb-81e4-25f35b3a854b.gif)
 
 
  
