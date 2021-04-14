@@ -18,7 +18,6 @@
   },
   "homepage": "https://github.com/Jassi10000/Pep-Hackathon-Project#readme",
   "dependencies": {
-    "puppeteer": "^8.0.0",
-    "puppeteer-autoscroll-down": "^0.1.6"
+    "puppeteer": "^8.0.0"
   }
 }
