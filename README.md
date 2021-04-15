@@ -22,7 +22,7 @@ The automation video is given below for quick reference  :
 # ➡ The steps to use and run the code are given at the last of this Readme 
  
  
- <br><br>
+ <br>
  
 ## Workflow of the automated code 
 Things that will be automated to get the desired result are :
