@@ -25,7 +25,7 @@ The automation video is given below for quick reference  :
  <br>
  
 ## Workflow of the automated code 
-Things that will be automated to get the desired result are :
+
 1. The chromium browser will open Youtube and type in search box " Best data structure and algorithm foundation course " .
 
 2. The first video will be the one you need to trust [recommended] by ' Mr. Sumeet Malik "
