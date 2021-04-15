@@ -68,13 +68,22 @@ Things that will be automated to get the desired result are :
 
 <br><br>
 
-## To use , view or run the code :
+## 🏍 To use , view or run the code :
 
-* Fork :                  
-       Fork the project from top right Fork button 
 * Clone / Download :
 
        git clone https://github.com/your_username_/Project-Name.git
 * Open the project in your favorite code editor and do following
 
        npm install puppeteer 
+
+
+
+## ✍ Contributing :
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are greatly appreciated.
+
+* Fork the Project
+* Create your new Branch (git checkout -b NewBranchName)
+* Commit your Changes <code> (git commit -m 'Description of contribution you made ') </code>
+* Push to the Branch <code>(git push origin NewBranchName)</code>
+* Open a Pull Request
