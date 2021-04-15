@@ -5,7 +5,7 @@
 
 Being a junior undergrad I have faced the times in past where it was very difficult to find good resources for DSA and a best institute where I can get good guidance about the path to succeed 
 
-So , I made a Automation Project using JavaScript [ including Node.js ] and an automation library " Puppeteer " which helps to resolve this confusion and gives a one stop platform to trust upon i.e "Pepcoding " . 
+So , I made a Automation Project using JavaScript [ including Node.js ] and an automation library " Puppeteer " which can really help a beginner student to find best resources to prepare for DSA and gives a one stop platform to trust upon i.e "Pepcoding " . 
 For this project , I automated the following 3 sites :
 
 ✅ Youtube       
@@ -17,8 +17,12 @@ The automation video is given below for quick reference  :
 
  ![Pep-Hackathon-Project-Video](https://user-images.githubusercontent.com/64856348/114754851-a7b08f80-9d76-11eb-81e4-25f35b3a854b.gif)
 
-
+<br><br>
  
+# ➡ The steps to use and run the code are given at the last of this Readme 
+ 
+ 
+ <br><br>
  
 ## Workflow of the automated code 
 Things that will be automated to get the desired result are :
@@ -62,4 +66,15 @@ Here are screenshots you have after the automation process :
 # Screenshot-6
 ![pepteamTab](https://user-images.githubusercontent.com/64856348/114720573-c0f51400-9d55-11eb-9bd5-f6f8016758db.png)
 
+<br><br>
 
+## To use , view or run the code :
+
+* Fork :                  
+       Fork the project from top right Fork button 
+* Clone / Download :
+
+       git clone https://github.com/your_username_/Project-Name.git
+* Open the project in your favorite code editor and do following
+
+       npm install puppeteer 
